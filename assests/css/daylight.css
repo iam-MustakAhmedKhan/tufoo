@@ -1,0 +1,224 @@
+:root {
+    --neumorphism: 5px 5px 14px #101215, -5px -5px 14px #424655;
+    --insetmorphism: inset 3px 3px 12px #101215, inset -3px -3px 12px #424655;
+    --white: #e3edf7;
+}
+
+body.dark .sectionTitle {
+    color: var(--white);
+}
+
+body.dark {
+    background-color: #292C35;
+}
+
+body.dark ::selection {
+    color: var(--white);
+    background-color: #f09433;
+}
+
+/* home page and menu start */
+
+body.dark .homePageInfo .introName {
+    color: var(--white) !important;
+}
+
+body.dark .homePageInfo h4 {
+    color: var(--white);
+}
+
+body.dark .homePageLogo {
+    box-shadow: var(--neumorphism);
+    border: 0.625rem solid #292C35;
+}
+
+body.dark .socialIcon {
+    box-shadow: var(--insetmorphism);
+}
+
+body.dark .socialIcon .fab {
+    box-shadow: var(--neumorphism);
+    color: var(--white);
+}
+
+body.dark .socialIcon a {
+    color: var(--white);
+}
+
+body.dark .mouseIcon {
+    border: 0.125rem solid var(--white);
+}
+
+body.dark .mouseIcon::before {
+    background-color: var(--white);
+}
+
+body.dark .toggleBtn {
+    background-color: #E3EDF7;
+    color: #292C35;
+}
+
+body.dark .menu {
+    background-color: #E3EDF7;
+}
+
+body.dark .menuList i {
+    color: #50566b;
+}
+
+body.dark .menuList li a {
+    color: #50566b;
+}
+
+body.dark .menuList li a:hover {
+    color: #EC7C23;
+}
+
+body.dark .menuList li a:hover i {
+    color: #EC7C23;
+}
+
+body.dark .toggleBtn:hover {
+    background-color: #cfd0d4;
+}
+
+.menuList li a.active {
+    color: #EC7C23 !important;
+}
+
+.menuList li a.active i {
+    color: #EC7C23;
+}
+
+.asideMenuLogo {
+    border: 0.313rem solid #EC7C23 !important;
+}
+
+/* home page and menu end */
+
+/* daylight start */
+
+body.dark .label {
+    background-color: #E3EDF7;
+}
+
+body.dark .label .ball {
+    background-color: #292C35;
+}
+
+/* daylight end */
+
+/* resume page start */
+
+body.dark .resumePageWrap {
+    box-shadow: var(--neumorphism);
+}
+
+body.dark .resumeText {
+    color: var(--white);
+}
+
+body.dark .progress_text {
+    color: var(--white) !important;
+}
+
+body.dark .bar {
+    background-color: var(--white);
+}
+
+/* resume page end */
+
+/* service page start */
+
+body.dark .servicePageWrap {
+    box-shadow: var(--neumorphism);
+}
+
+body.dark .card {
+    box-shadow: var(--neumorphism);
+    background-color: #292C35;
+    color: var(--white);
+}
+
+body.dark .cardLogo i {
+    color: var(--white);
+}
+
+/* service page end */
+
+/* work page start */
+
+body.dark .workPageWrap {
+    box-shadow: var(--neumorphism);
+}
+
+body.dark .gallery_product {
+    border: none;
+}
+
+body.dark .filter-button {
+    color: var(--white);
+}
+
+body.dark .filter-button:hover {
+    color: #3b9fd4;
+    border: none;
+}
+
+body.dark .filter-button.activeFilter {
+    color: #0073B1;
+}
+
+/* work page end */
+
+/* review page start */
+
+body.dark .reviewPageWrap {
+    box-shadow: var(--neumorphism);
+}
+
+body.dark .carou_item h3 {
+    color: var(--white);
+}
+
+/* review page end */
+
+/* contact page start */
+
+
+body.dark .details{
+    color: var(--white);
+}
+
+body.dark .detailsPhone,body.dark .detailsEmail,body.dark .detailsLocation,body.dark .detailsSupport{
+    color: var(--white);
+}
+
+body.dark .contactPageWrap {
+    box-shadow: var(--neumorphism);
+}
+
+body.dark .contactForm input, textarea {
+    background-color: #292C35;
+    box-shadow: var(--insetmorphism);
+    color: var(--white);
+    font-weight: 400;
+}
+
+body.dark .contactForm form ::placeholder {
+    color: rgba(218, 218, 224, 0.6);
+    font-weight: 400;
+}
+
+body.dark .message textarea {
+    background-color: #292C35;
+    box-shadow: var(--insetmorphism);
+    color: var(--neumorphism);
+    font-weight: 400;
+}
+
+body.dark #map {
+    border: 0.313rem solid #E3EDF7;
+}
+
+/* contact page end */

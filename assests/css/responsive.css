@@ -1,0 +1,257 @@
+@media screen and (max-width:1024px) {
+    /* menu and toogle btn start */
+    .toggleBtn {
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+    .menu {
+        height: 100%;
+        top: 0;
+        overflow-x: hidden;
+    }
+    .menuList li a {
+        margin-left: 0px;
+    }
+    .menuList {
+        display: block;
+    }
+    .asideMenuLogo {
+        display: block;
+    }
+    /* menu and toogle btn end */
+    /* resume page start */
+    .resumePageWrap {
+        display: grid;
+        display: -webkit-grid;
+        display: -ms-grid;
+        display: -moz-grid;
+        grid-template-columns: 1fr;
+        height: 100%;
+        overflow: scroll;
+        padding: 3rem 2rem;
+        overflow-x: hidden;
+    }
+    .SkillBar {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    /* resume page end */
+    /* service page start */
+    .serviceInfo {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .servicePageWrap {
+        height: 100%;
+        padding: 3rem 2rem;
+        width: 100%;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    /* service page end */
+    /* contact page start */
+    .contactPageWrap {
+        height: 100%;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    .contactInfo {
+        display: grid;
+        display: -webkit-grid;
+        display: -ms-grid;
+        display: -moz-grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .contactForm .name {
+        grid-template-columns: 1fr;
+    }
+    .contactForm input, textarea {
+        width: 100%;
+    }
+    /* contact page end */
+    /* work page start */
+    .workPageWrap {
+        height: 100%;
+    }
+    /* work page end */
+    /* review page start */
+    .reviewPageWrap {
+        height: 100%;
+        overflow: scroll;
+        overflow-x: hidden;
+        padding-top: 4rem;
+    }
+    .review_carousel {
+        padding: 2rem 0;
+    }
+    .carou_info {
+        width: 100%;
+    }
+    /* review page end */
+}
+
+@media screen and (max-width:768px) {
+    /* work page start */
+    .filterImages {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .filter-button {
+        margin-bottom: 0;
+    }
+    /* work page end */
+    /* service page start */
+    .serviceInfo {
+        grid-template-columns: 1fr;
+    }
+    /* service page end */
+}
+
+@media screen and (max-width:520px) {
+    /*daylight start */
+    .label {
+        height: 0.938rem;
+        width: 2rem;
+    }
+    .label .ball {
+        width: 0.813rem;
+        height: 0.813rem;
+    }
+    .fa-moon, .fa-sun {
+        font-size: 0.625rem;
+    }
+    .checkbox:checked+.label .ball {
+        transform: translateX(1rem);
+    }
+    /* daylight end */
+    /* toggle btn and menu start */
+    .socialIcon {
+        padding: 0.625rem 0.625rem;
+    }
+    .socialIcon .fab {
+        width: 2rem;
+        height: 2rem;
+        line-height: 2rem;
+    }
+    .homePageInfo .introName {
+        font-size: 2.5rem;
+    }
+    .homePageLogo {
+        width: 11rem !important;
+        height: 11rem !important;
+        border-width: 0.438rem !important;
+    }
+    /* toggle btn and menu start */
+    /* service page start */
+    .serviceInfo {
+        display: grid;
+        display: -webkit-grid;
+        display: -ms-grid;
+        display: -moz-grid;
+        grid-template-columns: 1fr;
+    }
+    /* service page end */
+    /* work page start */
+    .filterImages {
+        grid-template-columns: 1fr;
+    }
+    /* work page end */
+    .cardInfo h1 {
+        font-size: 1.5rem;
+    }
+    .cardLogo {
+        font-size: 3rem;
+        width: 3.2rem;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .homePageLogo {
+        width: 10rem !important;
+        height: 10rem !important;
+    }
+    .socialIcon {
+        padding: 0.625rem 0.625rem;
+        display: grid;
+        display: -webkit-grid;
+        display: -ms-grid;
+        display: -moz-grid;
+        grid-template-columns: repeat(4, 1fr) !important;
+        border-radius: 0.625rem;
+    }
+    .socialIcon .fab {
+        width: 2.5rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .homePageInfo .introName {
+        font-size: 2rem;
+    }
+    .toggleBtn {
+        width: 1.563rem;
+    }
+    .filter-button {
+        font-size: 1rem;
+    }
+    .contactForm form ::placeholder {
+        font-size: 0.8rem;
+    }
+    .sendBtn a {
+        font-size: 0.8rem;
+        padding: 0.188rem 0.625rem;
+    }
+    #map {
+        height: 18.75rem;
+    }
+    .detailsWrap{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media screen and (max-width:360px) {
+    .homePageLogo {
+        width: 8rem;
+        height: 8rem;
+    }
+    .homePageInfo .introName {
+        font-size: 1.5rem;
+    }
+    .homePageInfo h4 {
+        font-size: 0.9rem;
+    }
+    .socialIcon {
+        padding: 0.625rem 0.625rem;
+        display: grid;
+        display: -webkit-grid;
+        display: -ms-grid;
+        display: -moz-grid;
+        grid-template-columns: repeat(4, 1fr) !important;
+        border-radius: 0.625rem;
+    }
+    .socialIcon .fab {
+        width: 2rem;
+        height: 2rem;
+        line-height: 2rem;
+    }
+    .mouseAnimate {
+        margin-top: 0.7rem;
+    }
+    .menuList li a {
+        font-size: 1rem;
+    }
+    .gallery_product {
+        height: 15.625rem;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .asideMenuLogo {
+        width: 6rem !important;
+        height: 6rem;
+    }
+    .menuList li a {
+        font-size: 0.8rem;
+    }
+    .menu {
+        line-height: 2.5rem;
+    }
+}
